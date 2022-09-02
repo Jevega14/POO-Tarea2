@@ -7,7 +7,7 @@ public class E23 {
         Scanner scanner = new Scanner (System.in);
         
         int A,B,C;
-        float X1,X2;
+        double X1,X2;
 
         System.out.println("Introduce el coeficiente de segundo grado:");
         A= scanner.nextInt();
@@ -18,8 +18,8 @@ public class E23 {
         System.out.println("Introduce el termino independiente:");
         C= scanner.nextInt();
 
-        X1 = (float)((-(B)+(Math.sqrt((B*B)-4*A*C)))/(2*A));
-        X2 = (float)((-(B)-(Math.sqrt((B*B)-4*A*C)))/(2*A));
+        X1 = (double)((-(B)+(Math.sqrt((B*B)-4*A*C)))/(2*A));
+        X2 = (double)((-(B)-(Math.sqrt((B*B)-4*A*C)))/(2*A));
 
 
         System.out.println("El resultado de X1 es: "+X1);
